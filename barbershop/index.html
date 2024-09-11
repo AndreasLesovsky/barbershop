@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+	<meta name="description" content="Barber Shop for Gentlemen">
+	<title>Barber Shop</title>
+	<link rel="stylesheet" href="css/importer.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/config.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<link rel="icon" href="media/icon.png">
+	<script async src="https://kit.fontawesome.com/7933e77e42.js" crossorigin="anonymous"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+		integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="js/main.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html" class="logo">
+			<img src="media/cropped-Logo-with-text.png" alt="station1 Logo">
+		</a>
+
+		<nav id="primary-navigation">
+			<ul>
+				<li><a href="#ueber-uns">Über Uns</a></li>
+				<li><a href="#preise">Preise</a></li>
+				<li><a href="#testimonials">Bewertungen</a></li>
+				<li><a href="#galerie">Galerie</a></li>
+				<li><a href="#kontakt">Kontakt</a></li>
+				<!-- <li><a href="index_ar.html">العربية</a></li> -->
+			</ul>
+		</nav>
+		<div>
+			<a href="tel:+431234567891" class="phone-btn">
+				<span>
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+						fill="#eeeeee">
+						<path
+							d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+					</svg>
+				</span>
+			</a>
+
+			<button id="menu-btn" aria-controls="primary-navigation" aria-expanded="false">
+				<svg stroke="var(--col-font)" fill="none" class="hamburger" viewBox="-10 -10 120 120" width="250">
+					<path class="line" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+						d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70">
+					</path>
+				</svg>
+			</button>
+		</div>
+	</header>
+
+	<main>
+		<div class="placeholder"></div>
+
+		<div class="sticky-header-bar"></div>
+		<div>
+			<div class="gradient-bottom"></div>
+		</div>
+
+		<section>
+			<div>
+				<h1>Barbershop for Gentlemen</h1>
+				<p>
+					Willkommen bei Barbershop XY in Linz-Kleinmünchen! Mit über 15 Jahren Erfahrung bieten wir
+					erstklassige Haar- und Bartpflege für echte Gentlemen.
+				</p>
+				<a href="#kontakt" class="link-btn">
+					<span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#eeeeee">
+							<path
+								d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+						</svg>
+					</span>
+					Jetzt Termin vereinbaren!
+				</a>
+			</div>
+		</section>
+
+		<div>
+			<div class="gradient-top"></div>
+		</div>
+		<div class="sticky-header-bar"></div>
+		<div>
+			<div class="gradient-bottom"></div>
+		</div>
+
+		<section id="ueber-uns">
+			<div class="grid">
+				<h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Über Uns</h2>
+				<p class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					Seit 2009 ist unser erfahrener Barber für stilvolle Haarschnitte und Bartkreationen bekannt. 2018
+					eröffnete er den ersten Barber Shop in Linz-Kleinmünchen.<br>Der Shop liegt direkt neben der
+					<strong>Straßenbahnhaltestelle Dürerstraße</strong> und bietet genügend Parkmöglichkeiten direkt vor
+					dem Geschäft als auch in der direkten Umgebung.<br>
+					<br>
+				</p>
+				<p class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					Hier erwartet Sie ein perfekter Service in entspannter Atmosphäre. Unser Barber geht ganz auf Ihre
+					Wünsche ein und sorgt dafür, dass Sie den Salon mit dem perfekten Look verlassen. Besuchen Sie uns
+					und erleben Sie meisterhafte Barber-Kunst.<br>
+					<br>
+				</p>
+				<div class="slider col-xl-2 col-lg-2 col-md-3 col-sm-6 col-xs-6">
+					<img src="media/shop1.jpg" alt="station1 photo1" loading="lazy">
+					<img src="media/shop2.jpg" alt="station1 photo2" loading="lazy">
+					<img src="media/shop3.jpg" alt="station1 photo3" loading="lazy">
+					<img src="media/shop5.jpg" alt="station1 photo4" loading="lazy">
+					<img src="media/shop6.jpg" alt="station1 photo5" loading="lazy">
+					<img src="media/shop7.jpg" alt="station1 photo6" loading="lazy">
+					<img src="media/shop8.jpg" alt="station1 photo7" loading="lazy">
+				</div>
+
+				<div id="fullscreen" class="fullscreen">
+					<button id="left-arrow">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#eeeeee">
+							<path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" />
+						</svg>
+					</button>
+					<button id="right-arrow">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#eeeeee">
+							<path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+						</svg>
+					</button>
+					<button id="close-btn">
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#eeeeee">
+							<path
+								d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+						</svg>
+					</button>
+					<img id="fullscreen-img" src="media/shop1.jpg" alt="Fullscreen Image">
+				</div>
+			</div>
+		</section>
+
+		<div>
+			<div class="gradient-top"></div>
+		</div>
+		<div class="sticky-header-bar"></div>
+
+		<section id="preise">
+			<div class="grid">
+				<h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Preise</h2>
+				<ul class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 grid">
+					<li class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<!--<span class="service-logo"><img src="media/icon-01.png" alt=".."></span>-->Haare schneiden
+						<span class="price">€18.00</span>
+					</li>
+					<li class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<!--<span class="service-logo"><img src="media/icon-02.png" alt=".."></span>-->Haare waschen
+						<span class="price">€5.00</span>
+					</li>
+					<li class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<!--<span class="service-logo"><img src="media/icon-02.png" alt=".."></span>-->Bart schneiden
+						<span class="price">€12.00</span>
+					</li>
+					<li class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<!--<span class="service-logo"><img src="media/icon-02.png" alt=".."></span>-->Professional Wax 150ml
+						<span class="price">€7.00</span>
+					</li>
+					<li class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+						<!--<span class="service-logo"><img src="media/icon-02.png" alt=".."></span>-->Augenbrauen
+						threading <span class="price">€5.00</span>
+					</li>
+				</ul>
+
+				<div id="total-price" class="total-price">
+					<p>Gesamtpreis: €0</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="sticky-header-bar"></div>
+		<div>
+			<div class="gradient-bottom"></div>
+		</div>
+
+		<section id="testimonials">
+		    <div class="grid">
+		        <h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Bewertungen</h2>
+		
+		        <article class="testimonial col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Ohne großen Plan bin ich in den Laden gekommen und wurde sofort freundlich empfangen. Der Bartschnitt war erstklassig, und ich bin mit dem Ergebnis mehr als zufrieden. Der Service ist wirklich top, und ich werde definitiv wiederkommen!"
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Markus S.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		
+		        <article class="testimonial col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Heute war ich zum ersten Mal hier, und ich wurde direkt bedient. Der Barber war sehr freundlich und professionell. Der Laden ist sauber und gut gepflegt. Das Ergebnis hat mich voll überzeugt. Es ist klar, dass hier mit Leidenschaft gearbeitet wird. Ich komme auf jeden Fall wieder!"
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Maximilian B.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		
+		        <article class="testimonial col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Beste Qualität in der Stadt zu einem fairen Preis. Der Termin wurde pünktlich eingehalten, und der Service war schnell, freundlich und professionell. Ich kann diesen Barbershop wärmstens empfehlen!"
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Sebastian K.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		
+		        <article class="testimonial hidden col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Kleiner, aber feiner Barbershop. Es lohnt sich auf jeden Fall, einen Termin zu machen. Besonders die Expertise beim Bartschneiden ist herausragend."
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Michael H.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		        
+		        <article class="testimonial hidden col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Top Handwerk und eine angenehme Atmosphäre. Ein Besuch lohnt sich definitiv!"
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Christoph P.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		        
+		        <article class="testimonial hidden col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+		            <p class="testimonial-text">
+		                "Jeder Besuch überzeugt durch einen perfekten Haarschnitt und einen freundlichen Service. 👍🏻🤝🏻"
+		            </p>
+		            <div class="testimonial-author">
+		                <p><strong>Stefan M.</strong></p>
+		                <p><img class="stars" src="media/stars5.png" alt="5 Sterne"> 5 / 5</p>
+		            </div>
+		            <p class="testimonial-source">
+		                <small>Rezension aus <i class="fa-brands fa-google google-icon"></i>Google</small>
+		            </p>
+		        </article>
+		
+		        <button id="toggleButton" class="toggle-button link-btn col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6">Mehr anzeigen</button>
+		    </div>
+		</section>
+
+
+		<div>
+			<div class="gradient-top"></div>
+		</div>
+		<div class="sticky-header-bar"></div>
+
+		<section id="galerie">
+			<div class="grid">
+				<h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Galerie</h2>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="infinite-slider">
+						<img src="media/haircut-photo-03-free-img.jpg" alt="haircut1">
+						<img src="media/beard-photo-01-free-img.jpg" alt="haircut2">
+						<img src="media/beard-photo-02-free-img.jpg" alt="haircut3">
+						<img src="media/beard-photo-04-free-img.jpg" alt="haircut5">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="sticky-header-bar"></div>
+		<div>
+			<div class="gradient-bottom"></div>
+		</div>
+
+		<section id="kontakt">
+			<div class="grid">
+				<h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Kontakt</h2>
+				<div id="content" class="grid col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+					<p class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						Terminvereinbarung bitte telefonisch unter <a href="tel:+431234567891">+43 123 45 67 891</a>
+					</p>
+					<a href="tel:+431234567891" class="link-btn col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+								fill="#e8eaed">
+								<path
+									d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+							</svg>
+						</span>
+						Jetzt Anrufen!
+					</a>
+					<h3 class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6"><strong>Öffnungszeiten:</strong></h3>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<p>
+							Montag - Freitag: <strong class="open">09:00 - 18:00 Uhr</strong><br>
+							Samstag: <strong class="open">09:00 - 13:00 Uhr</strong><br>
+							Sonntag: <strong class="open">Geschlossen</strong>
+						</p>
+						<p>
+							Musterstraße 27<br>
+							4020 Linz<br>
+							<a href="mailto:office@barber.at">office@barbershop.at</a>
+						</p>
+						<br>
+
+					</div>
+				</div>
+				<iframe class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16375.249202666386!2d14.296651782557536!3d48.293063929883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sat!4v1725372297547!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<!--<form method="post">
+					<fieldset>
+						<label>
+							Name
+							<input type="text" id="name" name="Name">
+						</label>
+						
+						<label>
+							Emailadresse
+							<input type="email" id="email" name="Email">
+						</label>
+						
+						<label>
+							Telefonnummer
+							<input type="tel" id="tel" name="Telefon">
+						</label>
+						<label for="nachricht">
+							Nachricht
+						</label>
+						<textarea id="nachricht" name="Nachricht" required></textarea>
+						<input type="submit" value="Senden" id="submit">
+					</fieldset>
+				</form>-->
+			</div>
+		</section>
+
+		<div>
+			<div class="gradient-top"></div>
+		</div>
+		<div class="sticky-header-bar"></div>
+	</main>
+
+	<footer>
+		<address>
+			©2024 AL<br>Alle Rechte Vorbehalten.
+		</address>
+		<ul class="social">
+			<li><a href="#" target="_blank"
+					class="hvr-wobble-skew"><i class="fa-brands fa-facebook-f"></i></a></li>
+			<li><a href="#" target="_blank" class="hvr-wobble-skew"><i
+						class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="#"
+					target="_blank" class="hvr-wobble-skew"><i class="fa-brands fa-google"></i></a></li>
+		</ul>
+		<ul>
+			<li><a href="impressum-datenschutz.html">Impressum / Datenschutz</a></li>
+			<li><a href="javascript:void(0);" id="toggleCookies">Cookies</a></li>
+		</ul>
+	</footer>
+
+	<div class="cookie-banner" id="cookie-banner">
+		<p>Wir verwenden Cookies, um die Nutzung unserer Webseite zu verbessern. Durch die weitere Nutzung der Seite
+			stimmen Sie der Verwendung von Cookies zu.</p>
+		<div class="cookie-btns">
+			<a class="link-btn" href="impressum-datenschutz.html#datenschutz">Mehr erfahren</a>
+
+			<button class="link-btn" onclick="acceptCookies()">Akzeptieren</button>
+		</div>
+		<button id="closeCookies" onclick="acceptCookies()">
+			<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#eeeeee">
+				<path
+					d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+			</svg>
+		</button>
+	</div>
+
+</body>
+
+</html>

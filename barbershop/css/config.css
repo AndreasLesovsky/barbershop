@@ -1,0 +1,21 @@
+:root {
+  /* ---- Farben ---- */
+
+  --col-font: #eeeeee;
+  --col-font-inverted: #000000;
+  --col-main: rgb(165, 0, 0);
+  --col-bg: #0e0e0e;
+  --col-bg-inverted: #f0f0f0;
+  --col-section: #202020;
+  --col-gradient: linear-gradient(90deg, rgba(14, 14, 14, 1) 18%, rgba(165, 0, 0, 1) 47%, rgba(165, 0, 0, 1) 100%);
+  --col-gradient-inverted: linear-gradient(90deg, rgba(165, 0, 0, 1) 30%, rgba(165, 0, 0, 1) 40%, rgba(14, 14, 14, 1) 60%);
+
+  /* ---- ENDE Farben ---- */
+
+
+  /* ---- Schriften ---- */
+  --font-std: 'Roboto', Arial, sans-serif;
+  --font-headlines: 'Montserrat', 'Times New Roman', sans-serif;
+
+  /* ---- ENDE Schriften ---- */
+}

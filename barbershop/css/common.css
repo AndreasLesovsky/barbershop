@@ -1,0 +1,21 @@
+.success {
+	text-align: center;
+	text-wrap: balance;
+	margin-block: 0.5rem;
+	font-style: italic;
+	padding: 0.25rem 1rem;
+	background-color: hsla(120, 50%, 47%, 0.5);
+	border: 2px solid hsl(120, 50%, 47%);
+	border-radius: 0.25rem;
+}
+
+.error {
+	text-wrap: balance;
+	text-align: center;
+	margin-block: 0.5rem;
+	font-weight: bold;
+	padding: 0.25rem 1rem;
+	background-color: hsla(0, 50%, 47%, 0.5);
+	border: 2px solid hsl(0, 50%, 47%);
+	border-radius: 0.25rem;
+}

@@ -1,0 +1,326 @@
+/* ---- Media Queries ---- */
+
+/* >80rem XL */
+@media screen and (min-width: calc(80rem + 0.1px)) {
+	section>div {
+		padding-inline: 2rem;
+	}
+
+	footer {
+		padding-inline: 2rem;
+	}
+
+}
+
+/* >80rem XL Ende */
+
+/* max 80rem LG */
+@media screen and (max-width:80rem) {
+	section>div {
+		padding-inline: 2rem;
+	}
+
+	footer {
+		padding-inline: 2rem;
+	}
+
+	section#galerie div.grid {
+		padding-inline: 2rem;
+	}
+
+}
+
+/* max 80rem LG Ende */
+
+/* max 64rem MD */
+@media screen and (max-width:64rem) {
+
+	/* Header */
+	nav {
+		display: none;
+	}
+
+	header div {
+		display: flex;
+	}
+
+	#menu-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.menu-visible {
+		display: block;
+		position: absolute;
+		z-index: 999;
+		left: 0;
+		top: 7rem;
+		width: 100%;
+		background-color: var(--col-bg);
+	}
+
+	nav {
+		left: 0;
+	}
+
+
+
+	header.small {
+		background: var(--col-gradient);
+	}
+
+	nav a {
+		display: block;
+	}
+
+	nav a:active {
+		color: var(--col-main);
+	}
+
+	nav ul {
+		display: block;
+		text-align: center;
+	}
+
+	nav li {
+		padding-block: 0.25rem;
+		border-bottom: 1px solid var(--col-font);
+	}
+
+	nav li:first-of-type {
+		border-top: 1px solid var(--col-font);
+	}
+
+
+	header.small .menu-visible {
+		top: 5rem;
+		background: var(--col-gradient);
+	}
+
+	main section:first-of-type {
+		text-align: center;
+	}
+
+	footer ul:last-of-type {
+		justify-self: start;
+		flex-wrap: wrap;
+	}
+
+	section#kontakt div.grid iframe {
+		justify-self: start;
+	}
+
+	.slider {
+		justify-self: start;
+	}
+
+	footer {
+		gap: 0.5rem;
+	}
+
+	#menu-btn:active svg {
+		stroke: var(--col-main);
+	}
+
+	#menu-btn:active {
+		border: 1px solid var(--col-main);
+	}
+
+	.phone-btn:active {
+		border: 1px solid var(--col-main);
+	}
+
+	main section:first-of-type h1 {
+		font-size: 2.75rem;
+	}
+
+	.phone-btn:active svg {
+		fill: var(--col-main);
+	}
+
+	#impressum {
+		text-align: start;
+	}
+
+	#impressum h1,
+	#datenschutz h1 {
+		font-size: 2rem;
+		margin-block: 0;
+	}
+
+	nav ul a::before {
+		display: none;
+	}
+
+	#seite-nicht-gefunden {
+		text-align: start;
+	}
+
+	section#preise {
+		background-position: center;
+	}
+	
+}
+
+/* max 64rem MD Ende */
+
+/* max 48rem SM */
+@media screen and (max-width:48rem) {
+	body {
+		text-wrap: initial;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	header {
+		padding-inline: 1rem;
+	}
+
+	section:last-of-type .link-btn {
+		justify-self: center;
+	}
+
+	#content>p {
+		text-wrap: wrap;
+	}
+
+	main section:first-of-type p {
+		font-size: 1.1rem;
+		margin-block: 3rem;
+
+	}
+
+	main section:first-of-type {
+		height: minmax(auto, max-content);
+		text-wrap: balance;
+		background-image: url(../media/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+		background-size: cover;
+		background-position: top 0px left 50%;
+		background-repeat: no-repeat;
+	}
+	section#ueber-uns {
+		background-image: url(../media/bg-mobile.png);
+		background-size: cover;
+		background-position: top 0px left 0px;
+		background-repeat: no-repeat;
+	}
+	
+	section#testimonials {
+		background-image: url(../media/bg-mobile.png);
+		background-size: 150%; 
+		background-position: top left; 
+		background-repeat: repeat;
+	}
+	section:last-of-type {
+		background-image: url(../media/bg-mobile.png);
+		background-size: cover;
+		background-position: top 0px left 42%;
+		background-repeat: no-repeat;
+	}
+	#impressum, #datenschutz {
+		background-image: url(../media/bg-mobile.png);
+		background-size: cover;
+		background-position: top 0px left 50%;
+		background-repeat: no-repeat;
+		padding-top: 3rem;
+	}
+
+	footer {
+		flex-wrap: wrap;
+	}
+
+	footer> :first-child {
+		order: 1;
+	}
+
+	footer> :nth-child(2) {
+		order: 0;
+		width: 100%;
+		justify-content: center;
+	}
+
+	footer> :last-child {
+		order: 2;
+	}
+
+	.cookie-banner {
+		width: 95%;
+	}
+
+	.total-price {
+		top: 27rem;
+	}
+}
+
+/* max 48rem SM Ende*/
+
+/* max 36rem XS */
+@media screen and (max-width:36rem) {
+
+
+
+	.slider {
+		max-width: 100%;
+	}
+
+	#content div {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	section#kontakt div.grid iframe {
+		max-width: 100%;
+		justify-self: start;
+	}
+
+	main section:first-of-type h1 {
+		font-size: 2rem;
+	}
+
+	footer> :nth-child(2) {
+		justify-content: start;
+	}
+
+	.testimonial-author {
+		flex-direction: column;
+	}
+
+	.testimonial-source {
+		text-align: center;
+	}
+	
+}
+
+/* Mobile max 36rem XS Ende */
+
+/* max 25rem XXS */
+@media screen and (max-width:25rem) {
+	header.small .logo {
+		max-width: 6.5rem;
+	}
+
+	main section:first-of-type div .link-btn {
+		font-size: 1rem;
+		right: 0.5rem;
+	}
+
+	a.logo {
+		max-width: 7rem;
+	}
+
+	footer ul:last-of-type {
+		margin-top: 1rem;
+	}
+
+	footer ul:last-of-type {
+		gap: 1rem;
+	}
+
+}
+
+/* max 25rem XXS Ende */
+
+/* ---- Media Queries Ende ---- */
